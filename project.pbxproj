@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		921579FE220658FD00B4112A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921579FD220658FD00B4112A /* main.cpp */; };
+		9280BEE622065A440086A736 /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9280BEE422065A440086A736 /* Hero.cpp */; };
+		9280BEE922065A660086A736 /* Gamble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9280BEE722065A660086A736 /* Gamble.cpp */; };
+		9280BEEC22065B250086A736 /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9280BEEA22065B250086A736 /* Monster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		921579FA220658FD00B4112A /* GameTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921579FD220658FD00B4112A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9280BEE422065A440086A736 /* Hero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
+		9280BEE522065A440086A736 /* Hero.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hero.hpp; sourceTree = "<group>"; };
+		9280BEE722065A660086A736 /* Gamble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gamble.cpp; sourceTree = "<group>"; };
+		9280BEE822065A660086A736 /* Gamble.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gamble.hpp; sourceTree = "<group>"; };
+		9280BEEA22065B250086A736 /* Monster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		9280BEEB22065B250086A736 /* Monster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Monster.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				921579FD220658FD00B4112A /* main.cpp */,
+				9280BEE722065A660086A736 /* Gamble.cpp */,
+				9280BEE822065A660086A736 /* Gamble.hpp */,
+				9280BEE422065A440086A736 /* Hero.cpp */,
+				9280BEE522065A440086A736 /* Hero.hpp */,
+				9280BEEA22065B250086A736 /* Monster.cpp */,
+				9280BEEB22065B250086A736 /* Monster.hpp */,
 			);
 			path = GameTest;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9280BEEC22065B250086A736 /* Monster.cpp in Sources */,
+				9280BEE922065A660086A736 /* Gamble.cpp in Sources */,
 				921579FE220658FD00B4112A /* main.cpp in Sources */,
+				9280BEE622065A440086A736 /* Hero.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
